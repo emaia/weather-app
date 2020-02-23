@@ -1,5 +1,5 @@
 <template>
-  <div class="container bg-indigo-200 flex justify-center">
+  <div class="container flex justify-center">
     <Weather />
   </div>
 </template>
