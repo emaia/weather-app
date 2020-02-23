@@ -1,4 +1,4 @@
-# WheaterApp
+# WeatherApp
 
 App para pesquisa de previsão do tempo utilizando Nuxt.js, TailwindCSS,
 Dark Sky API, Algolia API.
