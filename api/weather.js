@@ -8,7 +8,6 @@ const apiKey = process.env.API_KEY || ''
 app.use(express.json())
 
 app.get('/weather', (req, res) => {
-  // res.json({ status: 'ok' })
   const { lat, lng } = req.query
 
   axios
