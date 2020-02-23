@@ -1,10 +1,11 @@
-# wheater-app
+# WheaterApp
 
-> My first-class Nuxt.js project
+App para pesquisa de previsão do tempo utilizando Nuxt.js, TailwindCSS,
+Dark Sky API, Algolia API.
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 
@@ -18,5 +19,3 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
