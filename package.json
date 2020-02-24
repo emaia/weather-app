@@ -1,7 +1,7 @@
 {
-  "name": "wheater-app",
+  "name": "weather-app",
   "version": "1.0.0",
-  "description": "My first-class Nuxt.js project",
+  "description": "Weather App made with Nuxt.js, TailwindCSS, Algolia and Dark Sky",
   "author": "Ednilson Maia",
   "private": true,
   "scripts": {
