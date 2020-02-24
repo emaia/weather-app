@@ -3,7 +3,7 @@ const express = require('express')
 const axios = require('axios')
 const app = express()
 
-const apiKey = process.env.API_KEY || ''
+const apiKey = process.env.DARKSKY_API_KEY || ''
 
 app.use(express.json())
 

@@ -79,9 +79,9 @@ export default {
       },
       daily: [],
       location: {
-        name: 'Belo Horizonte, Minas Gerais',
-        lat: '-19.8909205',
-        lng: '-43.9145652'
+        name: 'São Paulo, Brasil',
+        lat: '-23.5507',
+        lng: '-46.6334'
       }
     }
   },
@@ -105,8 +105,8 @@ export default {
     this.fetchData()
 
     const placesAutocomplete = places({
-      appId: 'plZJD0QNIKWL',
-      apiKey: '357511bff15fa43801b0f76b740a5138',
+      appId: process.env.ALGOLIA_APP_ID,
+      apiKey: process.env.ALGOLIA_SEARCH_API_KEY,
       container: document.querySelector('#address')
     }).configure({
       type: 'city',
